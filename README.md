@@ -1,4 +1,6 @@
 # Projeto Java básico
 Repositório para armazenar o conteúdo do curso de Java básico
 
-Alterando aquivos de forma local
+## Links úteis
+[Repositório Java básico - DIO](https://github.com/digitalinnovationone/trilha-java-basico.git)
+
