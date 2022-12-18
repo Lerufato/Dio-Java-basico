@@ -1,4 +1,4 @@
-package edu.Letícia.primeirasemana;
+package edu.Letícia.anatomiadeclasses;
 public class BoletimSemIndentação {
 
 public static void main(String[] args) {
