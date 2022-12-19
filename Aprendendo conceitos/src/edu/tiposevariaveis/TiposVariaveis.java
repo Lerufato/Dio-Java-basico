@@ -1,9 +1,7 @@
 package edu.tiposevariaveis;
 
 public class TiposVariaveis {
-    /**
-     * @param args
-     */
+
     public static void main(String args[]) {
         //Toda variável é composta tipo de dados + identificação + valor atribuído
         
@@ -35,13 +33,21 @@ public class TiposVariaveis {
 
         //Variáveis Booleanas
 
-        boolean ehMaior = true;
+            boolean ehMaior = true;
+            boolean maisVelho = false; 
+            boolean irmaoMaisNovo = true;
 
-        boolean maisVelho = false; 
-
-        boolean irmaoMaisNovo = true;
-
-        System.out.println("Se ehMaior é " + ehMaior + " e maisVelho é " + maisVelho + ", então, o irmão mais novo é maior? Resposta: " + irmaoMaisNovo);
+            System.out.println("Se ehMaior é " + ehMaior + " e maisVelho é " + maisVelho + ", então, o irmão mais novo é maior? Resposta: " + irmaoMaisNovo);
     
+        //Variáveis Char
+
+            char sexo1 = 'F';
+            char verdade = 'S';
+            char falso = 'N';
+            char sexo2 = 'M';
+
+            System.out.println("O seu sexo é " + sexo1 + "? " + verdade);
+            System.out.println("O seu sexo é " + sexo2 + "? " + falso);
+
     }    
 }
