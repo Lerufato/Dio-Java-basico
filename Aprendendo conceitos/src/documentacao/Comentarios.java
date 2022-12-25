@@ -1,4 +1,4 @@
-package edu.documentacao;
+package documentacao;
 
 public class Comentarios {
     public static void main(String[] args) {

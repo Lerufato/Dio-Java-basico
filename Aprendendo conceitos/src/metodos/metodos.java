@@ -1,4 +1,4 @@
-package edu.metodos;
+package metodos;
 
 public class metodos {
     

@@ -1,4 +1,4 @@
-package edu.operadores;
+package operadores;
 
 public class OperadoresAritmeticos {
 

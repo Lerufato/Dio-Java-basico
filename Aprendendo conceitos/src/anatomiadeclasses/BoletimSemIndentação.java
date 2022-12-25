@@ -1,4 +1,4 @@
-package edu.anatomiadeclasses;
+package anatomiadeclasses;
 public class BoletimSemIndentação {
 
 public static void main(String[] args) {
