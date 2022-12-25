@@ -138,7 +138,7 @@ De acordo com a Java Language Specification, *null, true e false* são tecnicame
 | Palavra 1 | Palavra 2 |      Explicação             |
 |:---------:|:---------:|:---------------------------:|
 |package    |import     |Enquanto package determina o diretório real da classe, o import informa de onde será importada a classe. Isso porque, podemos ter classes de mesmo nome.|
-|extendes   |implementes|Enquanto extends determina que uma classe estende outra classe, implements determina que uma classe implementa uma interface, porém nunca o contrário.|
+|extends   |implements|Enquanto extends determina que uma classe estende outra classe, implements determina que uma classe implementa uma interface, porém nunca o contrário.|
 |final      |abstract|Enquanto final determina fim de alteração de valor ou lógica comportamental, abstract em métodos, exige que sub-classes precisarão definir comportamento e um método abstrato. NOTA: Se uma classe contém um único método abstrato, toda classe precisa ser.|
 |throws |throw|Esta é uma das situações mais complicadas, de compreensão destas duas palavras. Enquanto a throws determina que um método pode lançar uma exceção, throw é a implementação que dispara a exceção. Vamos conhecer mais sobre este conceito no assunto Exceções.|
 
