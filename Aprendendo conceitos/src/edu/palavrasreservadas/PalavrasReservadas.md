@@ -127,12 +127,12 @@ De acordo com a Java Language Specification, *null, true e false* são tecnicame
 ## Escopo de Uso 
 
 |  Uso   |  Palavras                                                                    |
-|--------|:----------------------------------------------------------------------------:|
+
 |Arquivo | package, import, static.                                                     |
-|--------|:----------------------------------------------------------------------------:|
+
 |Classe  | public ou protected ou private + final ou abstract + extends ou implements.  |
-|--------|:----------------------------------------------------------------------------:|
+
 |Método  | public ou protected ou private + static ou final ou abstract + void e return.|
-|--------|:----------------------------------------------------------------------------:|
+
 |Atributo| public ou protected ou private + static ou final + tipo primitivo.           |
 
