@@ -135,7 +135,7 @@ De acordo com a Java Language Specification, *null, true e false* são tecnicame
 
 ## Palavras Opostas
 
-| Palavra 1  | Palavra 2 |      Explicação             |
+| Palavra  | Palavra 2 |      Explicação             |
 |:----------:|:---------:|:---------------------------:|
 |package    |import     |Enquanto package determina o diretório real da classe, o import informa de onde será importada a classe. Isso porque, podemos ter classes de mesmo nome.|
 |extends   |implements|Enquanto extends determina que uma classe estende outra classe, implements determina que uma classe implementa uma interface, porém nunca o contrário.|
