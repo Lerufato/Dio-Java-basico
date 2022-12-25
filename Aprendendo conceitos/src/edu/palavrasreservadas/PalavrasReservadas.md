@@ -18,7 +18,7 @@ A linguagem Java possui 52 palavras reservadas. Todas essas palavras são classi
 
 - private: acesso apenas dentro da classe;
 
-- protected: acesso por classes no mesmo pacote e subclasses.
+- protected: acesso por classes no mesmo pacote e subclasses (uso de herança na linguagem).
 
 ### Primitivos 
 
@@ -42,7 +42,7 @@ A linguagem Java possui 52 palavras reservadas. Todas essas palavras são classi
 
 ### Modificadores de Classes, Variáveis ou Métodos
 
-- abstract: classe que não pode ser instanciada ou método que precisa ser implementado, por uma subclasse não abstrata;
+- abstract: classe que não pode ser instanciada ou método que precisa ser implementado, por uma subclasse não abstrata (Está associado com herança);
 
 - class: especifica uma classe;
 
@@ -56,15 +56,15 @@ A linguagem Java possui 52 palavras reservadas. Todas essas palavras são classi
 
 - native: indica que um método está escrito em uma linguagem dependente de plataforma, como o C;
 
-- new: instancia um novo objeto, chamando seu construtor;
+- new: instancia (cria) um novo objeto, chamando seu construtor;
 
-- static: faz um método ou variável pertencer à classe ao invés de às instâncias;
+- static: faz um método ou variável pertencer à classe ao invés de às instâncias - não precisa criar um ojeto, a própria classe faz isso;
 
 - strictfp: usado em frente a um método ou classe para indicar que os números de ponto flutuante seguirão as regras de ponto flutuante, em todas as expressões;
 
-- synchronized: indica que um método só pode ser acessado por uma thread de cada vez
+- synchronized: indica que um método só pode ser acessado por uma thread de cada vez - manter a integridade de execuções multi thread;
 
-- transient: impede a serialização de campos;
+- transient: impede a serialização de campos - informação será sempre reiniciada, não terá registro em nenhum repositório;
 
 - volatile: indica que uma variável pode ser alterada durante o uso de threads.
 
@@ -123,4 +123,13 @@ A linguagem Java possui 52 palavras reservadas. Todas essas palavras são classi
 ### Literais Reservados
 
 De acordo com a Java Language Specification, *null, true e false* são tecnicamente chamados de valores literais, e não keywords. Se você tentar criar algum identificador com estes valores, você também terá um erro de compilação.
+
+## Escopo de Uso 
+
+|  Uso   |  Palavras                                                                    |
+-----------------------------------------------------------------------------------------
+|Arquivo | package, import, static.                                                     |
+|Classe  | public ou protected ou private + final ou abstract + extends ou implements.  |
+|Método  | public ou protected ou private + static ou final ou abstract + void e return.|
+|Atributo| public ou protected ou private + static ou final + tipo primitivo.           |
 
