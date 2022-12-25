@@ -21,3 +21,8 @@ public class Calculadora {
         return  numeroUm + numeroDois;
     }
 }
+
+/* 
+Para criar o java doc em html, usa o seguinte comando:
+javadoc -encoding UTF-8 -docencoding ISO-8859-1  -d ../docs  src/*.java
+*/
